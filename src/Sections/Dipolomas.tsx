@@ -20,6 +20,7 @@ const Dipolomas = () => {
             <img
               src={Diploma2}
               alt="Diploma"
+              loading="lazy"
               className="max-w-[650px] w-full rounded min-w-[280px] object-contain max-sm:max-w-[90%] 
             hover:scale-110 transition-transform duration-300 ease-in-out max-sm:hover:scale-100 "
             />
@@ -28,12 +29,14 @@ const Dipolomas = () => {
             <img
               src={Diploma1}
               alt="Diploma"
+              loading="lazy"
               className="max-w-[350px] w-full rounded min-w-[280px] object-contain max-sm:max-w-[90%] 
             hover:scale-110 transition-transform duration-300 ease-in-out max-sm:hover:scale-100"
             />
             <img
               src={Diploma3}
               alt="Diploma"
+              loading="lazy"
               className="max-w-[354px] w-full rounded min-w-[280px] object-contain max-sm:max-w-[90%] 
             hover:scale-110 transition-transform duration-300 ease-in-out max-sm:hover:scale-100"
             />

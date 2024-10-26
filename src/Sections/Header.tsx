@@ -58,6 +58,7 @@ const Header = () => {
                     ignoreCancelEvents={false}
                     className="text-lg hover:text-primary150 ease-in-out duration-300 cursor-pointer"
                     onClick={() => setIsMenuOpen(false)}
+                    href={item.href}
                   >
                     {item.label}
                   </Link>
@@ -106,6 +107,7 @@ const Header = () => {
                   ignoreCancelEvents={false}
                   onClick={() => setIsMenuOpen(false)}
                   className="text-lg hover:text-primary150 ease-in-out duration-300 cursor-pointer"
+                  href={item.href}
                 >
                   {item.label}
                 </Link>

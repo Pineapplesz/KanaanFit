@@ -41,6 +41,7 @@ const Philosopy = () => {
               className="max-w-[600px] w-full rounded min-w-[240px] object-contain"
               src={philosopyImg}
               alt="DescriptionImg"
+              loading="lazy"
             />
           </div>
         </div>

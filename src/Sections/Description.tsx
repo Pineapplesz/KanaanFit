@@ -1,5 +1,5 @@
 // import { description } from "../Constants/index";
-import DescriptionImg from "../assets/images/Yulia3.png";
+import DescriptionImg from "../assets/images/Yulia3.jpg";
 import { Element } from "react-scroll";
 import { useTranslation } from "react-i18next";
 import schedule from "../assets/svg/schedule.svg"; //1
@@ -67,6 +67,7 @@ const Description = () => {
                 className="max-w-[600px] w-full rounded min-w-[240px] object-contain"
                 src={DescriptionImg}
                 alt="DescriptionImg"
+                loading="lazy"
               />
             </div>
           </div>

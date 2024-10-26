@@ -17,6 +17,7 @@ const MainTrainer = () => {
             <img
               src={mainTrainerImage}
               alt="image"
+              loading="lazy"
               className="max-w-[600px] w-full rounded min-w-[300px] object-contain max-sm:max-w-[90%]"
             />
           </div>

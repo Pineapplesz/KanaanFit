@@ -17,6 +17,7 @@ const Team = () => {
             <img
               src={stretchingTrainer}
               alt="image"
+              loading="lazy"
               className="max-w-[550px] w-full rounded-md min-w-[300px] object-contain max-sm:max-w-full max-sm:h-auto max-sm:w-[90%]"
             />
           </div>
