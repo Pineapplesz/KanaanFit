@@ -22,17 +22,18 @@ function App() {
         <Expectations />
       </section>
       <section>
-        <Description />
-      </section>
-      <section>
-        <Philosopy />
-      </section>
-      <section>
         <MainTrainer />
       </section>
       <section>
         <Team />
       </section>
+      <section>
+        <Description />
+      </section>
+      <section>
+        <Philosopy />
+      </section>
+
       <section>
         <Dipolomas />
       </section>

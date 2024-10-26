@@ -11,7 +11,7 @@ const LastChance = () => {
         <h3 className="font-bold text-4xl font-dmsans max-w-120 max-xs:text-2xl">
           {t("lastChance.h3")}
         </h3>
-        <p className=" text-base text-justify max-sm:px-2 max-xs:px-5 font-montserrat font-normal">
+        <p className=" text-base text-justify max-xs:text-start max-sm:px-2 max-xs:px-5 font-montserrat font-normal">
           {t("lastChance.text")}
         </p>
         <div className="w-full flex flex-col gap-4">

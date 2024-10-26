@@ -39,7 +39,9 @@ const Expectations = () => {
                 {block.title}
                 {block.emoji}
               </h3>
-              <p className="mt-2 text-justify">{block.text}</p>
+              <p className="mt-2 text-justify max-xs:text-start">
+                {block.text}
+              </p>
             </div>
           ))}
         </div>

@@ -50,7 +50,7 @@ const Accordion = ({ title, answer }: Props) => {
           : "grid-rows-[0fr] opacity-0"
       }`}
       >
-        <div className="overflow-hidden font-dmsans text-base text-justify">
+        <div className="overflow-hidden font-dmsans text-base text-justify max-xs:text-start ">
           {answer}
         </div>
       </div>

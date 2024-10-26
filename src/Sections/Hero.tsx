@@ -10,24 +10,40 @@ const Hero = () => {
     <div className="w-full bg-[#f5f5f5] rounded-b-[40px] mb-10">
       <Element name="Main">
         <div
-          className="flex flex-wrap px-10 pt-32  max-container mx-auto
+          className="flex flex-wrap px-10 pt-28  max-container mx-auto
         max-md:pt-32 max-md:px-8 max-[1200px]:gap-16
         max-xs:gap-8 max-md:mb-12 max-xs:mb-8"
         >
-          <div className="flex w-1/2 flex-col gap-10 justify-center max-[1200px]:w-full max-[1200px]:items-center">
-            <div className="flex gap-5 max-[870px]:flex-col max-xs:items-center max-[760px]:text-center">
-              <h1 className="font-bold text-5xl font-dmsans max-w-[250px] max-xs:text-5xl max-[1200px]:max-w-[800px]">
-                {t("hero.h1")}
+          <div className="flex w-1/2 flex-col gap-6 justify-center max-[1200px]:w-full max-[1200px]:items-center">
+            <div className="flex gap-5 max-[1200px]:flex-col max-xs:items-center max-[1200px]:text-center">
+              <h1
+                className="flex flex-col font-bold text-5xl font-dmsans 
+              max-w-[300px] max-xs:text-4xl max-[1200px]:max-w-[300px] max-[1384px]:max-w-[300px]"
+              >
+                <span
+                  className="text-start max-[1200px]:text-center
+                max-w-[300px] max-[800px]:max-w-fulll max-[600px]:mx-auto"
+                >
+                  {t("hero.h1")}
+                </span>
+                <span className="max-[800px]:max-w-full">{t("hero.h2")}</span>
               </h1>
+
               <p className="bg-white rounded-full h-12 min-w-40 max-w-40 p-3 block font-montserrat text-sm font-semibold text-center">
                 {t("hero.subtext")}
               </p>
             </div>
             <p
-              className="max-w-[460px] text-base text-justify font-dmsans font-normal
+              className="max-w-[460px] text-base text-justify max-xs:text-start font-dmsans font-normal
           max-[1200px]:max-w-[800px] "
             >
               {t("hero.text")}
+            </p>
+            <p
+              className="max-w-[460px] text-justify max-xs:text-start font-dmsans font-semibold text-base
+          max-[1200px]:max-w-[800px] "
+            >
+              {t("hero.slogan")}
             </p>
             <a
               href={t("hero.btnHref")}

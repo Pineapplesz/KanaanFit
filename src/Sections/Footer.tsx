@@ -15,9 +15,9 @@ const Footer = () => {
     <div className="w-full bg-[#1f2126]">
       <div
         className="flex flex-col justify-center items-center gap-2
-      mx-auto py-12 px-4 max-xs:max-w-[320px] text-primary200 max-md:text-center"
+      // mx-auto py-12 px-4 text-primary200 max-md:text-center"
       >
-        <div>
+        <div className="flex flex-wrap justify-center gap-2 max-[517px]:gap-0">
           {t("footer.subtext")}
           <a
             href={t("footer.tgHref")}
@@ -27,7 +27,7 @@ const Footer = () => {
             {t("footer.tg")}
           </a>
         </div>
-        <div className="flex gap-2">
+        <div className="flex flex-wrap justify-center gap-2 max-[517px]:gap-0">
           {t("footer.emailText")}
           <p className="font-semibold text-lg text-primary250">
             {t("footer.emailHref")}

@@ -37,7 +37,7 @@ const Header = () => {
 
   return (
     <header className="w-full fixed z-50 mt-2 text-primary50 flex justify-center">
-      <div className="w-full max-w-[1240px] bg-white rounded-full py-[1px] mx-4">
+      <div className="w-full max-w-[1230px] bg-white rounded-full py-[1px] mx-4">
         <nav className="flex justify-between px-4 my-2">
           <a href="/" className="flex gap-1 justify-center items-center mx-2">
             <CiDumbbell className="w-[45px] h-[45px] text-primary150" />
